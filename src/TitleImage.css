@@ -2,7 +2,7 @@
     height: 690px;
     width:100%;
     display:block;
-    background:url("accessories/Girl.png") no-repeat;
+    background:url("./accessories/Girl.png") no-repeat;
 }
 .my-life{
     max-width:79px;

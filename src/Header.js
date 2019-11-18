@@ -4,16 +4,16 @@ import HeaderMenuNav from './HeaderMenuNav';
 import HeaderFormRight from './HeaderFormRight';
 
 
-function App() {
+function Header() {
   return (
     <Header>
         <div className="menu-bar">
             <form action="" method="get">
                 <div className="menu-left">    
-                    <a href="#"><img alt="BE-icon" className="menu-left-icons" src ="accessories/First-menu-icon.png"/> </a>
-                    <a href="#"><img alt="Facebook-icon" className="menu-left-icons" src="accessories/facebook-second-icon.png"/> </a>
-                    <a href="#"><img alt="Instagramm-icon" className="menu-left-icons" src="accessories/Insta-icon.png"/> </a>
-                    <a href="#"><img alt="P-icon" className="menu-left-icons" src="accessories/Last-menu-icon.png"/> </a>
+                    <a href="#"><img alt="BE-icon" className="menu-left-icons" src ="./accessories/First-menu-icon.png"/> </a>
+                    <a href="#"><img alt="Facebook-icon" className="menu-left-icons" src="./accessories/facebook-second-icon.png"/> </a>
+                    <a href="#"><img alt="Instagramm-icon" className="menu-left-icons" src="./accessories/Insta-icon.png"/> </a>
+                    <a href="#"><img alt="P-icon" className="menu-left-icons" src="./accessories/Last-menu-icon.png"/> </a>
                 </div>
             </form>           
             <HeaderMenuNav/>
