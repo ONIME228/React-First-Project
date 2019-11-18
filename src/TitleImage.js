@@ -1,5 +1,5 @@
 import React from 'react';
-import '/TitleImage.css';
+import './TitleImage.css';
 
 function TitleImage() {
     return (

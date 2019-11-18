@@ -1,10 +1,4 @@
 @media (min-width: 1024px){
-    .menu{
-    font-size:9px;     
-    display:flex;
-    justify-content:center;
-    font-size:10px;
-    }
     .menu-right{
         display:flex;
         width:350px;
@@ -17,13 +11,6 @@
 }
 
 @media (max-width: 1023px){
-    .menu{
-        font-size:9px;     
-        display:flex;
-        justify-content:center;
-        font-size:10px;
-        flex:1;
-    }
     .menu-right{
         display:flex;
         justify-content: flex-start;
@@ -43,10 +30,6 @@ img.menu-left-icons{
  justify-content:space-around;
  flex-basis:auto;
  margin-top:40px;
-}
-input[type="search"]{
-    border:none;
-    border-bottom:1px solid gainsboro;
 }
 button.right-sign-in{
     background-color:white;

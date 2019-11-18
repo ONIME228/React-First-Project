@@ -1,5 +1,7 @@
 import React from 'react';
 import './Header.css';
+import HeaderMenuNav from './HeaderMenuNav';
+import HeaderFormRight from './HeaderFormRight';
 
 
 function App() {
@@ -14,14 +16,7 @@ function App() {
                     <a href="#"><img alt="P-icon" className="menu-left-icons" src="accessories/Last-menu-icon.png"/> </a>
                 </div>
             </form>           
-            <nav className="menu">
-                <div><a href="#">HOME      </a></div>            
-                <div><a href="#">POSTTYPES </a></div>
-                <div><a href="#">FEAUTURES </a></div>
-                <div><a href="#">PAGES     </a></div>
-                <div><a href="#">CATEGORIES</a></div>
-                <div><a href="#">CONTACT   </a></div>
-            </nav>
+            <HeaderMenuNav/>
             <div className="menu-right">
                 <button className="right-sign-in" >
                     Sign in
@@ -30,10 +25,7 @@ function App() {
                     <option value="usa" className="usa">English</option>
                     <option value="rus">Russian</option>
                 </select>
-                <form className="form" method="get">
-                    <input type="search"name="search" id="search"/>
-                    <label for="search"> <img className="search"  src="accessories/Search-icon.png"/></label>    
-                </form>
+                <HeaderFormRight/>
             </div>
         </div>
     </Header>
