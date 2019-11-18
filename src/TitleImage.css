@@ -1,0 +1,33 @@
+.background-girl{
+    height: 690px;
+    width:100%;
+    display:block;
+    background:url("accessories/Girl.png") no-repeat;
+}
+.my-life{
+    max-width:79px;
+    max-height:26px;
+    background-color:#ff0000;
+    color:white;
+    text-align:center;
+    font-size:11px;
+    padding:5px 10px;
+    font-family:Arial;   
+}
+.girl-title{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    position:relative;
+    top:460px;     
+}
+.title-below{
+    font-family:'Slabo 27px';
+    color:white;
+    font-size:40px;
+    font-weight:400;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
