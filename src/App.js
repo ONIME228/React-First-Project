@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Logo from './Logo.js';
-import TitleImage from './TitleImage.js';
-import Header from './Header.js';
+import Logo from './components/Logo/Logo.js';
+import TitleImage from './components/TitleImage/TitleImage.js';
+import Header from './components/Header/Header.js';
 
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
       <main>
         <TitleImage/>
       </main>
-      
     </div>
   );
 }
