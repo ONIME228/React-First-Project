@@ -20,3 +20,26 @@
 .App-link {
   color: #09d3ac;
 }
+
+@media (min-width:1024px) {
+  .main-page{
+      display:flex;
+                  background-color:greenyello;
+      position:relative;
+      padding-top:93px;
+      border-bottom:1px dashed gainsboro;
+      justify-content: space-around;
+  }
+}
+
+@media (max-width:1023px){
+  .main-page{
+      display:flex;
+                  background-color:reenyellow;
+      flex-direction:column;
+      position:relative;
+      padding-top:93px;
+      border-bottom:1px dashed gainsboro;
+      align-items: center;
+  }
+}

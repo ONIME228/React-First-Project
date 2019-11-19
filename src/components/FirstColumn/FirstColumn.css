@@ -1,0 +1,16 @@
+@media (min-width:1024px){
+    .first-column{
+        display:flex;
+        flex-direction:column;
+        padding-right:26px;
+        padding-left:200px;
+        width:400px;
+    }
+}
+@media (max-width:1023px){
+    .first-column{
+        display:flex;
+        flex-direction:column;
+        width:400px;
+    }
+}

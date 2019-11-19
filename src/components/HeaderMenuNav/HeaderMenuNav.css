@@ -16,3 +16,13 @@
         flex:1;
     }
 }
+nav.menu>div>a{
+    text-decoration:none;
+    color:black;
+}
+nav.menu>div>a:focus{
+    color:goldenrod;
+}
+nav.menu>div>a:hover{
+    color:red;
+}
