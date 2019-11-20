@@ -1,13 +1,11 @@
 import React from '../../../node_modules/react';
-import './ElementFirst2.css';
+import './ElementFourth2.css';
 
-
-
-function ElementFirst2(){
+function ElementFourth2(){
     return(
-        <article className="element-second-1">
+        <article className="element-second-4">
             <div className="relative margin-bottom">
-                <img alt="Blonde staring at the wall under the tree"  src=""/>
+                <img alt="Caligraphic Q-letter" src=""/>
                 <button className="share">
                     <img alt="share" src=""/>
                 </button>
@@ -15,18 +13,18 @@ function ElementFirst2(){
                     <img alt="anchor" src=""/> 
                 </a>
             </div>
-            <div className="underlined margin-bottom"> My life </div>
+            <div className="underlined margin-bottom"> Make up </div>
             <h1 className="big-title margin-bottom">
-                Quiz: What Kind of Gift Giver Are You?
+                Paris Fashion Week Highlights: 
+                Vogue's Anna Wintour on All the Top Shows
             </h1>
             <p className="description margin-bottom"> 
                 There are many variations of passages of Lorem Ipsum 
-                available, but the majority have suffered alteration in some 
-                form, by injected humour, or randomised words...
+                available, but the majority have suffered alteration...
             </p>
-            <div className="small margin-bottom"> Dec 09 <span className="grey">/ 2015</span></div>
+            <div className="small margin-bottom"> Dec 09 <span className="grey">/ 2015 </span></div>
         </article>
     );
 }
 
-export default ElementFirst2;
+export default ElementFourth2;
