@@ -1,0 +1,17 @@
+@media (min-width:1024px) {
+    .second-column{
+        display:flex;
+        flex-direction:column;
+                       background-color:blueviole;
+        padding-right:121px;
+        width:400px;
+    }
+}
+@media (max-width:1023px){
+    .second-column{
+        display:flex;
+        flex-direction:column;
+                       background-color:lueviolet;
+        width:400px;
+        }
+    }

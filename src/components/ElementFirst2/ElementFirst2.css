@@ -2,15 +2,14 @@
     font-family:rufina-bold;
     src:url('../../fonts/TipoType_Rufina.Bold.otf');
 }
-[class^="element-first"]{
-    padding-bottom:60px;
+[class^="element-second"]{
     width:auto;
+    padding-bottom:60px;
     display:flex;
     flex-direction:column;
     align-items:center;
-    flex-wrap:wrap;
-    font-family:Arial;
-}
+    flex-wrap:wrap
+}    
 .relative{
     position:relative;
 }
