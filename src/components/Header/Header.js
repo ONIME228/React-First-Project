@@ -1,35 +1,18 @@
 import React from '../../../node_modules/react';
 import './Header.css';
+import MenuLeft from '../MenuLeft/MenuLeft';
 import HeaderMenuNav from '../HeaderMenuNav/HeaderMenuNav';
-import HeaderFormRight from '../HeaderFormRight/HeaderFormRight';
+import MenuRight from '../MenuRight/MenuRight';
 
 
 function Header() {
-  return (
-    <div>
+    return (  
         <div className="menu-bar">
-            <form action="" method="get">
-                <div className="menu-left">    
-                    <a href=""><img alt="BE-icon" className="menu-left-icons" src =""/> </a>
-                    <a href=""><img alt="Facebook-icon" className="menu-left-icons" src=""/> </a>
-                    <a href=""><img alt="Instagramm-icon" className="menu-left-icons" src=""/> </a>
-                    <a href=""><img alt="P-icon" className="menu-left-icons" src=""/> </a>
-                </div>
-            </form>           
+            <MenuLeft/>
             <HeaderMenuNav/>
-            <div className="menu-right">
-                <button className="right-sign-in" >
-                    Sign in
-                </button>
-                <select className="country" name="country">
-                    <option value="usa" className="usa">English</option>
-                    <option value="rus">Russian</option>
-                </select>
-                <HeaderFormRight/>
-            </div>
+            <MenuRight/>
         </div>
-    </div>
-  );
+    );
 }
 
 export default Header;
