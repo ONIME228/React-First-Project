@@ -9,10 +9,10 @@ function ElementFifth1() {
                 <img alt="Two young ladies placing their heads on right shoulder of each other calmly" 
                      src=""/>
                 <button className="share">
-                    <img src=""/>
+                    <img alt="share" src=""/>
                 </button>
                 <a className="anchor" href="#"> 
-                    <img src=""/> 
+                    <img alt="anchor" src=""/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> Make up </div>

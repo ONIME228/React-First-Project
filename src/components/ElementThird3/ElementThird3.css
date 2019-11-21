@@ -1,0 +1,46 @@
+[class^="element-third"]{
+    width:auto;
+    margin-bottom:60px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+.big-underlined{
+    font-size:22px;
+    font-family:rufina-bold;
+    border-bottom:1px solid grey;
+    padding-bottom:5px;
+    margin-top:0;
+}
+.aside-box{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.underlined-aside{
+    font-size:12px;
+    border-bottom:1px solid grey;
+    width:auto;
+    padding:0 10px 2px 0 ;
+    color:grey;
+    font-style:italic;
+    font-weight:400;
+}
+.margin-bottom{
+    margin-bottom:25px;
+    margin-top:0;
+}
+.posts-aside{
+    line-height:25px;
+    font-weight:700;
+    font-family:rufina-bold;
+}
+.small{
+    font-size:12px;
+}
+.space{
+    margin-bottom:50px;
+}
+.grey{
+    color:grey;
+}

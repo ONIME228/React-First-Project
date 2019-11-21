@@ -1,0 +1,25 @@
+[class^="element-third"]{
+    width:auto;
+    margin-bottom:60px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+.big-underlined{
+    font-size:22px;
+    font-family:rufina-bold;
+    border-bottom:1px solid grey;
+    padding-bottom:5px;
+    margin-top:0;
+}
+.posts-aside{
+    line-height:25px;
+    font-weight:700;
+    font-family:rufina-bold;
+}
+.posts-aside>div{
+    color:grey;
+}
+.grey{
+    color:grey;
+}

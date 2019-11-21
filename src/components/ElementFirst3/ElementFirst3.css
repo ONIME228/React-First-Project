@@ -1,0 +1,39 @@
+[class^="element-third"]{
+    width:auto;
+    margin-bottom:60px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+.margin-bottom{
+    margin-bottom:25px;
+    margin-top:0;
+}
+.aside-box{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.underlined-aside{
+    font-size:12px;
+    border-bottom:1px solid grey;
+    width:auto;
+    padding:0 10px 2px 0 ;
+    color:grey;
+    font-style:italic;
+    font-weight:400;
+}
+.name-aside{
+    font-family:rufina-bold;
+    font-size:35px;
+}
+.description-aside{
+    font-size:12px;
+    line-height:25px;
+    color:grey;
+    margin-top:0;    
+}
+.follow{
+    color:grey;
+    font-size:12px;
+}

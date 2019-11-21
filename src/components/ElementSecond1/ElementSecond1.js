@@ -8,10 +8,10 @@ function ElementSecond1(){
             <div className="relative margin-bottom">
                 <img alt="Two women facing each other" src=""/>
                 <button className="share">
-                    <img src=""/>
+                    <img alt="share" src=""/>
                 </button>
                 <a className="anchor" href="#"> 
-                    <img src=""/> 
+                    <img alt="anchor" src=""/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> Audio </div>

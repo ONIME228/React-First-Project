@@ -1,0 +1,21 @@
+.instagram{
+    font-family:rufina-bold;
+    font-size:30px;
+    text-align:center;
+    margin:40px;
+}
+.insta-sheet{
+    display:flex;
+    flex-direction:row;
+    margin-top:20px;
+    width:100%;
+    overflow:hidden;    
+}
+div[class^="insta-bar"]{
+    display:flex;
+    flex-direction:column;
+}
+.insta-bar-3>div{
+    display:flex;
+    flex-direction:row;
+}

@@ -1,0 +1,7 @@
+[class^="element-third"]{
+    width:auto;
+    margin-bottom:60px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}

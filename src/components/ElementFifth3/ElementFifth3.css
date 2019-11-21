@@ -1,0 +1,33 @@
+[class^="element-third"]{
+    width:auto;
+    margin-bottom:60px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+}
+.big-underlined{
+    font-size:22px;
+    font-family:rufina-bold;
+    border-bottom:1px solid grey;
+    padding-bottom:5px;
+    margin-top:0;
+}
+[class^="categories"]{
+    padding:10px;
+    font-weight:700;
+    font-size:12px;
+}
+.categories-even{
+    background-color:#f5f5f5;
+}
+[class^="categories"]>a{
+    text-decoration:none;
+    color:black;
+    font-family:rufina-bold;
+}
+[class^="categories"]>a:focus{
+    color:goldenrod;
+}
+[class^="categories"]>a:hover{
+    color:red;
+}

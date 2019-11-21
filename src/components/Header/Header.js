@@ -10,7 +10,7 @@ function Header() {
         <div className="menu-bar">
             <form action="" method="get">
                 <div className="menu-left">    
-                    <a href=""><img alt="BE-icon" className="menu-left-icons" src ="../../image/First-menu-icon.png"/> </a>
+                    <a href=""><img alt="BE-icon" className="menu-left-icons" src =""/> </a>
                     <a href=""><img alt="Facebook-icon" className="menu-left-icons" src=""/> </a>
                     <a href=""><img alt="Instagramm-icon" className="menu-left-icons" src=""/> </a>
                     <a href=""><img alt="P-icon" className="menu-left-icons" src=""/> </a>
