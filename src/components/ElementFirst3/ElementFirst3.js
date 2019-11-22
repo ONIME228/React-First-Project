@@ -1,11 +1,15 @@
 import React from '../../../node_modules/react';
 import './ElementFirst3.css';
+import Pic31 from '../../image/Photo-3-1.png';
+import InstIcon from '../../image/about-inst.png';
+import TwitterIcon from '../../image/about-twitter.png';
+import FacebookIcon from '../../image/about-facebook.png';
 
 
 function ElementFirst3(){
     return(
         <article className="element-third-1">
-            <div className="margin-bottom"><img alt="The photo of Mona Kim" src=""/></div>
+            <div className="margin-bottom"><img alt="The photo of Mona Kim" src={Pic31}/></div>
             <div className="aside-box margin-bottom">
                 <h1 className="underlined-aside "> About me </h1>
             </div>
@@ -16,12 +20,12 @@ function ElementFirst3(){
                 interested. Sections 1.10.32 and 1.10.33 from 
                 "de Finibus Bonorum et Malorum" 
             </p>
-            <span className="follow" >
-                Follow 
-                <a href="#"><img alt="instagram" src=""/></a> 
-                <a href="#"><img alt="twitter" src=""/></a> 
-                <a href="#"><img alt="facebook" src=""/></a> 
-            </span>
+            <div className="follow" >
+                <span className="margin"> Follow </span>  
+                <a href="#"><img className="margin" alt="instagram" src={InstIcon}/></a> 
+                <a href="#"><img className="margin" alt="twitter" src={TwitterIcon}/></a> 
+                <a href="#"><img className="margin" alt="facebook" src={FacebookIcon}/></a> 
+            </div>
         </article>
     );
 }

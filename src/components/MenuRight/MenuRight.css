@@ -1,0 +1,20 @@
+@media (min-width: 1024px){
+    .menu-right{
+        display:flex;
+        width:350px;
+        }
+}
+
+@media (max-width: 1023px){
+    .menu-right{
+        display:flex;
+        justify-content: flex-start;
+    }
+}
+button.right-sign-in{
+    background-color:white;
+    border:none;
+}
+select.country{
+    border:none;
+}

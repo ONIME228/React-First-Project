@@ -1,17 +1,19 @@
 import React from '../../../node_modules/react';
 import './ElementFourth1.css';
-
+import Pic14 from '../../image/Photo-1-4.png';
+import ShareIcon from '../../image/share.png';
+import AnchorIcon from '../../image/comment.png';
 
 function ElementFourth1() {
     return(
         <article className="element-first-4">
             <div className="relative margin-bottom">
-                <img alt="Two women in the downtown" src=""/>
+                <img alt="Two women in the downtown" src={Pic14}/>
                 <button className="share">
-                    <img alt="share" src=""/>
+                    <img alt="share" src={ShareIcon}/>
                 </button>
                 <a className="anchor" href="#"> 
-                    <img alt="anchor" src=""/> 
+                    <img alt="anchor" src={AnchorIcon}/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> Beauty </div>

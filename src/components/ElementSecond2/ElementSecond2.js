@@ -1,18 +1,20 @@
 import React from '../../../node_modules/react';
 import './ElementSecond2.css';
-
+import Pic22 from '../../image/Photo-2-2.png';
+import ShareIcon from '../../image/share.png';
+import AnchorIcon from '../../image/comment.png';
 
 
 function ElementSecond2(){
     return(
         <article className="element-second-2">
             <div className="relative margin-bottom">
-                <img alt="Black and White painting of foxes"  src=""/>
+                <img alt="Black and White painting of foxes"  src={Pic22}/>
                 <button className="share">
-                    <img alt="share" src=""/>
+                    <img alt="share" src={ShareIcon}/>
                 </button>
                 <a className="anchor" href="#">
-                    <img alt="anchor" src=""/> 
+                    <img alt="anchor" src={AnchorIcon}/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> Fashion </div>

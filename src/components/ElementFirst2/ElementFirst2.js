@@ -1,5 +1,8 @@
 import React from '../../../node_modules/react';
 import './ElementFirst2.css';
+import Pic21 from '../../image/photo-2-1.png';
+import ShareIcon from '../../image/share.png';
+import AnchorIcon from '../../image/comment.png';
 
 
 
@@ -7,12 +10,12 @@ function ElementFirst2(){
     return(
         <article className="element-second-1">
             <div className="relative margin-bottom">
-                <img alt="Blonde staring at the wall under the tree"  src=""/>
+                <img alt="Blonde staring at the wall under the tree"  src={Pic21}/>
                 <button className="share">
-                    <img alt="share" src=""/>
+                    <img alt="share" src={ShareIcon}/>
                 </button>
                 <a className="anchor" href="#">
-                    <img alt="anchor" src=""/> 
+                    <img alt="anchor" src={AnchorIcon}/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> My life </div>

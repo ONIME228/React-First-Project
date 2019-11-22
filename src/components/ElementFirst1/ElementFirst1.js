@@ -1,17 +1,20 @@
 import React from '../../../node_modules/react';
 import './ElementFirst1.css';
+import Pic11 from '../../image/Photo-1-1.png';
+import ShareIcon from '../../image/share.png';
+import AnchorIcon from '../../image/comment.png'; 
 
 
 function ElementFirst1() {
     return(
         <article className="element-first-1">
             <div className="relative margin-bottom">
-                <img alt="X-symbol"  src=""/>
+                <img alt="X-symbol"  src={Pic11}/>
                 <button className="share">
-                    <img alt="share" src=""/>
+                    <img alt="share" src={ShareIcon}/>
                 </button>
                 <a className="anchor" href="#">
-                    <img alt="anchor" src=""/> 
+                    <img alt="anchor" src={AnchorIcon}/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> Fashion </div>

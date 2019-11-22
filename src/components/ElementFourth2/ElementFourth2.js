@@ -1,16 +1,19 @@
 import React from '../../../node_modules/react';
 import './ElementFourth2.css';
+import Pic24 from '../../image/Photo-2-4.png';
+import ShareIcon from '../../image/share.png';
+import AnchorIcon from '../../image/comment.png';
 
 function ElementFourth2(){
     return(
         <article className="element-second-4">
             <div className="relative margin-bottom">
-                <img alt="Caligraphic Q-letter" src=""/>
+                <img alt="Caligraphic Q-letter" src={Pic24}/>
                 <button className="share">
-                    <img alt="share" src=""/>
+                    <img alt="share" src={ShareIcon}/>
                 </button>
                 <a className="anchor" href="#">
-                    <img alt="anchor" src=""/> 
+                    <img alt="anchor" src={AnchorIcon}/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> Make up </div>

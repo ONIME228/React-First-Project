@@ -1,3 +1,7 @@
+@font-face {
+    font-family:rufina-bold;
+    src:url('../../fonts/TipoType_Rufina.Bold.otf');
+}
 [class^="element-third"]{
     width:auto;
     margin-bottom:60px;

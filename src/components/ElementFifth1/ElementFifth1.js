@@ -1,5 +1,8 @@
 import React from '../../../node_modules/react';
 import './ElementFifth1.css';
+import Pic15 from '../../image/Photo-1-5.png';
+import ShareIcon from '../../image/share.png';
+import AnchorIcon from '../../image/comment.png';
 
 
 function ElementFifth1() {
@@ -7,12 +10,12 @@ function ElementFifth1() {
         <article className="element-first-5">
             <div className="relative margin-bottom">
                 <img alt="Two young ladies placing their heads on right shoulder of each other calmly" 
-                     src=""/>
+                     src={Pic15}/>
                 <button className="share">
-                    <img alt="share" src=""/>
+                    <img alt="share" src={ShareIcon}/>
                 </button>
                 <a className="anchor" href="#"> 
-                    <img alt="anchor" src=""/> 
+                    <img alt="anchor" src={AnchorIcon}/> 
                 </a>
             </div>
             <div className="underlined margin-bottom"> Make up </div>

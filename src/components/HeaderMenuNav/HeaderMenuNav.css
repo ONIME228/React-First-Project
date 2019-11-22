@@ -1,22 +1,23 @@
-@media (min-width: 1024px){
-    .menu{
-        font-size:9px;     
+
+@media (min-width: 1024px) {
+    .menu{     
         display:flex;
         justify-content:center;
         font-size:10px;
+        font-family:Arial;
     }
 }
 
-@media (max-width: 1023px){
-    .menu{
-        font-size:9px;     
+@media (max-width: 1023px) {
+    .menu{    
         display:flex;
         justify-content:center;
         font-size:10px;
         flex:1;
+        font-family:Arial;
     }
 }
-nav.menu>div>a{
+nav.menu>div>a {
     text-decoration:none;
     color:black;
 }
@@ -26,3 +27,7 @@ nav.menu>div>a:focus{
 nav.menu>div>a:hover{
     color:red;
 }
+nav>div{
+    padding:10px 15px 10px 15px;
+    width:100%;
+   }
