@@ -1,16 +1,16 @@
 import React from '../../../node_modules/react';
 import './Header.css';
-import MenuLeft from '../MenuLeft/MenuLeft';
-import HeaderMenuNav from '../HeaderMenuNav/HeaderMenuNav';
-import MenuRight from '../MenuRight/MenuRight';
+import SocialMediaAnchors from '../SocialMediaAnchors/SocialMediaAnchors';
+import NavigationMenu from '../NavigationMenu/NavigationMenu';
+import SignInMenuArea from '../SignInMenuArea/SignInMenuArea';
 
 
 function Header() {
     return (  
         <div className="menu-bar">
-            <MenuLeft/>
-            <HeaderMenuNav/>
-            <MenuRight/>
+            <SocialMediaAnchors/>
+            <NavigationMenu/>
+            <SignInMenuArea/>
         </div>
     );
 }
