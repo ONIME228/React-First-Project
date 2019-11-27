@@ -17,7 +17,7 @@ function ArticleBlock(props) {
                 </a>
             </div>
             <div className="underlined margin-bottom">
-                {props.section}
+                {props.sectionName}
             </div>
             <h1 className="big-title margin-bottom">
                 {props.title}
@@ -25,7 +25,7 @@ function ArticleBlock(props) {
             <p className="description margin-bottom"> 
                 {props.description}
             </p>
-            <div className="small"> {props.date} <span className="grey"> / 2015 </span></div>
+            <div className="small"> {props.date.day} {props.date.month} <span className="grey"> / {props.date.year} </span></div>
         </article>
     );
 }
