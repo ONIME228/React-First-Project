@@ -61,23 +61,22 @@ function MainPageLeftBox(){
         },
     ];
 
-    renderArticleBlocks = () => {
-        return StaticData.map( item => {
+    const renderArticleBlocks = () => {
+        return StaticData.map(item => (
             <ArticleBlock
-            image = {item.image}
-            alt = {item.alt}
-            sectionName = {item.sectionName}
-            title = {item.title}
-            description = {item.description}
-            date = {item.date}
+            image={item.image}
+            alt={item.alt}
+            sectionName={item.sectionName}
+            title={item.title}
+            description={item.description}
+            date={item.date}
             />
-            }
-        );
-    }
+        ));   
+    };
 
     return(
         <div className="first-column">
-            {this.renderArticleBlocks()}
+            {renderArticleBlocks()}
         </div>
     );
 }
